@@ -1,0 +1,21 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+edition = "2024"
+
+[build]
+target = "x86_64-blog_os.json"
+
+[[bin]]
+name = "blog_os"
+test = false
+bench = false
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+
+[dependencies]
