@@ -8,3 +8,5 @@ run:
     cargo run
 clean:
     cargo clean
+sloc:
+  tokei
